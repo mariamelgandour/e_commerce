@@ -1,0 +1,38 @@
+name: e_commerce
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev
+
+# Version and build number for your application
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+# Dependencies that your package needs
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_rating_bar: ^4.0.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/appstore.png"
+  flutter_test:
+    sdk: flutter
+
+
+# Flutter launcher icons configuration
+
+# Flutter package-specific settings
+flutter:
+  uses-material-design: true
+
+  # Add assets to your application
+  assets:
+    - images/
